@@ -23,19 +23,6 @@ html, body {
 
 	.github { margin: 15px; right: 0; text-decoration: underline; }
 
-.container {
-	position: fixed;
-	background: #F1F2EB;
-	width: 100%;
-	height: 100%;
-	color: #5D5E5B;
-}
-	#category {
-		margin: 15px;
-		letter-spacing: 1px;
-	}
-
-
 	a {
 		margin: 5px;
 		color: #202020;
