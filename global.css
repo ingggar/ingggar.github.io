@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
+html, body {
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	color: #202020;
+}
+
+.navigation {
+	margin: 0 auto;
+	height: 55px;
+	weight: 100%;
+	border-bottom: 3px solid #EBEBD3;
+}
+	.brand, .github, .info {
+		position: fixed;
+		font-weight: 800;
+	}
+
+	.brand { margin: 15px; color: #E84855; }
+
+	.info { margin: 15px; margin-left: 35%; }
+
+	.github { margin: 15px; right: 0; }
+
+	a {
+		margin: 5px;
+		color: #202020;
+		text-decoration: none;
+	}
+
+	a:hover, .active { color: #E84855; }
