@@ -1,5 +1,5 @@
 {
-	var text = ["Hei!", "Vi er Kuben Koder.", "Akkurat nå holder vi på med web-design.", "blablabla.", "Møt opp på biblioteket på mandager!"]
+	var text = ["Hei!", "Vi er Kuben Koder.", "Akkurat nå holder vi på med web-design.", "Det er både erfarne og nybegynnere, alle er velkommen.", "Møt opp på biblioteket på mandager!"]
 
 	var container = document.getElementById("text");
 
