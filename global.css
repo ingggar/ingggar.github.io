@@ -31,7 +31,7 @@ html, body {
 	height: 100%;
 	top: 50%;
 }
-	#text { text-align: center; }
+	#container p { margin-top: -40px; text-align: center; }
 
 .blinking-cursor {
 	 font-weight: 100;
@@ -57,3 +57,5 @@ html, body {
 	}
 
 	a:hover, .active { color: #E84855; }
+
+.underline { text-decoration: underline; }

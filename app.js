@@ -1,5 +1,5 @@
 {
-	var text = ["Hei!", "Vi er Kuben Koder", "Akkurat nå holder vi på med web-design", "blablbablba", "Møt opp på biblioteket på mandager og se mer!"]
+	var text = ["Hei!", "Vi er Kuben Koder.", "Akkurat nå holder vi på med web-design.", "blablabla.", "Møt opp på biblioteket på mandager!"]
 
 	var container = document.getElementById("text");
 
@@ -13,5 +13,6 @@
 				i = 0;
 	  }
 	  container.innerHTML = text[j].slice(0, i);
+	  // container.innerHTML = "<span class='aligator'><</div> " + text[j].slice(0, i) + "<span class='aligator'> ></div>";
 	}, 150);
 }
